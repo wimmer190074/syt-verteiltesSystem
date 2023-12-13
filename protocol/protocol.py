@@ -1,6 +1,6 @@
 import struct
 
-class Protocoll():
+class Protocol():
     def __init__(self):
         pass
 
