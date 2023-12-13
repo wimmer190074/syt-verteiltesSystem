@@ -1,8 +1,8 @@
 import struct
 
-class Protocol:
+class Protocoll():
     def __init__(self):
-        pass
+        print("protocol constructor")
 
     @staticmethod
     def encode_tlv(type, value):
