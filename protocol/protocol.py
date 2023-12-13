@@ -2,7 +2,7 @@ import struct
 
 class Protocol():
     def __init__(self):
-        pass
+        print("protocol constructor")
 
     def encode_tlv(type, value):
         length = len(value)
